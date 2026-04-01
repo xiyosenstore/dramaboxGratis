@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const UPSTREAM_API = process.env.UPSTREAM_API || "https://dramabox.dramabos.my.id/api/v1/latest?lang=in";
+const UPSTREAM_API = process.env.UPSTREAM_API || "https://api.sansekai.my.id/api/netshort/theaters";
 
 export async function GET() {
   try {
