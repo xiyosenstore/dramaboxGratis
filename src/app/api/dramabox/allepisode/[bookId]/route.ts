@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { headers } from "next/headers";
 
-const UPSTREAM_API = process.env.UPSTREAM_API || "https://dramabox.dramabos.my.id/api.html";
+const UPSTREAM_API = process.env.UPSTREAM_API || "https://dramabox.dramabos.my.id/api/v1/allepisode?bookId=42000008315&lang=in&code=Qryijg";
 
 export async function GET(
   request: NextRequest,
