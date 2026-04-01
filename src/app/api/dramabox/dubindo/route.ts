@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const UPSTREAM_API = process.env.UPSTREAM_API || "https://dramabox.dramabos.my.id/api/v1/dubbed?classify=terpopuler&page=1&lang=in";
+const UPSTREAM_API = process.env.UPSTREAM_API || "https://api.sansekai.my.id/api/dramabox/dubindo?classify=terbaru%20&page=1";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
